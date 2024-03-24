@@ -1,7 +1,8 @@
-
+import dotenv from 'dotenv'
 import express, {Application,Request, Response} from "express"
 import {router} from "./routes/index"
 
+dotenv.config()
 
 const PORT = 4000
 const app: Application = express()
