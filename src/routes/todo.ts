@@ -11,7 +11,7 @@ const prisma = new PrismaClient();
 enum StatusCode{
     Success = 200,
     NotFound = 404,
-    Error = 500
+    Error = 403
 }
 interface todoSchema{
     title: string,
